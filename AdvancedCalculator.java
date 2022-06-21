@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class AdvancedCalculator {
 	
 	
 
@@ -59,11 +59,11 @@ public class Calculator {
 					    break;
 					    		
 				case 5:  System.out.println("Enter the number : ");
-				         num1 = sc.nextDouble();
-				         System.out.println("Enter the total : ");
-				        double total = sc.nextDouble();
-				        res = (num1 / total) * 100;
-				        System.out.println("Percentage = "+res);
+		                 num1 = sc.nextDouble();
+		                 System.out.println("Enter the total : ");
+		                 double total = sc.nextDouble();
+		                 res = (num1 / total) * 100;
+		                 System.out.println("Percentage = "+res);
 					    break;
 					    
 				case 6: break;
