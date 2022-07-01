@@ -21,15 +21,17 @@ public class AdvancedCalculator {
 				 System.out.println("4. Division \n");
 				 System.out.println("5. Percentage \n");
 				 System.out.println("6. Quit \n");
+				 System.out.println("____________________________________________________");
 				 System.out.println("Enter your choice : ");
-				 ch = sc.nextInt();
+				 System.out.println("____________________________________________________");
+				 ch = 1 ;
 					    
 				 switch (ch) 
 				 {
 				 case 1:
 					    System.out.println("Enter two numbers : ");
-					    num1 = sc.nextDouble();
-					    num2 = sc.nextDouble();
+					    num1 = 3;
+					    num2 = 2;
 					    res = num1 + num2;
 					    System.out.println(num1 + " + " + num2 + " = " + res);
 					    break;
@@ -72,7 +74,7 @@ public class AdvancedCalculator {
 					    System.out.println("Invalid choice!!");
 					    break;
 				}
-			}while(ch != 7);
+			}while(ch != 1);
 				    
 			sc.close();
 		}
